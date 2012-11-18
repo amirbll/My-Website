@@ -114,3 +114,10 @@ nav.menu li:hover ul {
 nav.menu li ul li:hover a {
 	color: #eee;
 }
+
+header div.icon {
+	float: right;
+	position: fixed;
+	right: 40px;
+	top: 20px;
+}
