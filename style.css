@@ -147,10 +147,32 @@ div.main div.text {
 	background-color: rgba(0,0,0,0.9);
 }
 
+div.footer {
+	margin-top: 20px;
+	height: 50px;
+	border-top: 1px solid #ddd;
+}
+
+div.footer div.copyright {
+	color 		: #999;
+	min-height	: 45px;
+	font-size:.900em;
+	margin-right: 100px;
+}
+
+div.copyright span a {
+	text-decoration: none;
+	color: #777;
+}
+
+div.footer div.icon {
+	float: right;
+}
+
 /*Gallery*/
 
 div.gallery {
-	width: 950px;
+	width: 1005px;
 	min-height: 500px;
 	margin-top: 20px;
 	margin-left: 30px;
@@ -159,7 +181,7 @@ div.gallery {
 	padding-bottom: 20px;
 }
 
-div.gallery div {
+div.gallery > div {
 	padding: 30px 45px;
 }
 
@@ -183,15 +205,9 @@ div.gallery div.pic {
 div.gallery div.pic a {
 	display: block;
 	float: left;
-	margin: 3px;
+	margin: 10px;
 	overflow: hidden;
 	height: 300px;
-}
-
-div.footer {
-	margin-top: 20px;
-	height: 50px;
-	border-top: 1px solid #ddd;
 }
 
 .fade {
