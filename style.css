@@ -174,22 +174,39 @@ div.gallery h1 {
 
 div.gallery div.text {
 	min-height: 40px;
-	/*border: 1px solid gray;*/
 }
 
 div.gallery div.pic {
 	min-height: 500px;
-	/*border: 1px solid red;*/
 }
 
 div.gallery div.pic a {
 	display: block;
 	float: left;
-	margin-left: 3px;
+	margin: 3px;
+	overflow: hidden;
 }
 
 div.footer {
 	margin-top: 20px;
 	height: 50px;
 	border-top: 1px solid #ddd;
+}
+
+.fade {
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+.fade:hover {
+	opacity: 0.8;
+}
+
+div.gallery div.pic img {
+	-webkit-transition:all 700ms;
+}
+
+div.gallery div.pic img:hover {
+	-webkit-transform:scale(1.1)
 }
