@@ -129,7 +129,7 @@ header div.icon {
 
 /*TEXT*/
 
-div.title {
+div.mainp div.title {
 	position: fixed;
 	right: 20px;
 	bottom: 200px;
@@ -138,7 +138,7 @@ div.title {
 	background-color: rgba(0,0,0,0.9);
 }
 
-div.main div.text {
+div.mainp div.text {
 	position: fixed;
 	right: 20px;
 	bottom: 160px;
@@ -171,7 +171,7 @@ div.footer div.icon {
 
 /*Gallery*/
 
-div.gallery {
+div.main {
 	width: 1005px;
 	min-height: 500px;
 	margin-top: 20px;
@@ -181,28 +181,28 @@ div.gallery {
 	padding-bottom: 20px;
 }
 
-div.gallery > div {
+div.main > div {
 	padding: 30px 45px;
 }
 
-div.gallery div.head {
+div.main div.head {
 	border-bottom: 1px solid #ddd;
 }
 
-div.gallery h1 {
+div.main h1 {
 	font-size: 50px;
 	text-transform: capitalize;
 }
 
-div.gallery div.text {
+div.main div.text {
 	min-height: 40px;
 }
 
-div.gallery div.pic {
+div.main div.pic {
 	min-height: 500px;
 }
 
-div.gallery div.pic a {
+div.main div.pic a {
 	display: block;
 	float: left;
 	margin: 10px;
@@ -220,10 +220,10 @@ div.gallery div.pic a {
 	opacity: 0.8;
 }
 
-div.gallery div.pic img {
+div.main div.pic img {
 	-webkit-transition:all 700ms;
 }
 
-div.gallery div.pic img:hover {
+div.main div.pic img:hover {
 	-webkit-transform:scale(1.1)
 }
