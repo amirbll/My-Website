@@ -139,82 +139,81 @@ div.mainp div.title {
 }
 
 div.mainp div.text {
+	right 	: 20px;
+	width 	: 500px;
+	height 	: 30px;
+	bottom 	: 160px;
 	position: fixed;
-	right: 20px;
-	bottom: 160px;
-	width: 500px;
-	height: 30px;
 	background-color: rgba(0,0,0,0.9);
 }
 
 div.footer {
-	margin-top: 20px;
-	height: 50px;
-	border-top: 1px solid #ddd;
+	height 		: 50px;
+	margin-top	: 20px;
+	border-top	: 1px solid #ddd;
 }
 
 div.footer div.copyright {
 	color 		: #999;
+	font-size 	:.900em;
 	min-height	: 45px;
-	font-size:.900em;
 	margin-right: 100px;
 }
 
 div.copyright span a {
+	color 	: #777;
 	text-decoration: none;
-	color: #777;
 }
 
 div.footer div.icon {
-	float: right;
+	float	: right;
 }
 
 /*Gallery*/
 
 div.main {
-	width: 1005px;
-	min-height: 500px;
-	margin-top: 20px;
-	margin-left: 30px;
+	width 		: 950px;
+	margin-top 	: 20px;
+	margin-left : 30px;
+	border-radius 	: 5px;
+	padding-bottom	: 20px;
 	background-color: white;
-	border-radius: 5px;
-	padding-bottom: 20px;
 }
 
 div.main > div {
-	padding: 30px 45px;
+	padding : 30px 45px;
 }
 
 div.main div.head {
-	border-bottom: 1px solid #ddd;
+	border-bottom : 1px solid #ddd;
 }
 
 div.main h1 {
-	font-size: 50px;
-	text-transform: capitalize;
+	font-size		: 50px;
+	text-transform	: capitalize;
 }
 
 div.main div.text {
-	min-height: 40px;
+	min-height	: 40px;
 }
 
 div.main div.pic {
-	min-height: 500px;
+	min-height	: 500px;
 }
 
 div.main div.pic a {
-	display: block;
-	float: left;
-	margin: 10px;
+	float	: left;
+	margin 	: 10px;
+	height 	: 300px;
+	display : block;
 	overflow: hidden;
-	height: 300px;
 }
 
 .fade {
-	opacity: 1;
-	transition: opacity .25s ease-in-out;
-	-moz-transition: opacity .25s ease-in-out;
-	-webkit-transition: opacity .25s ease-in-out;
+	opacity 	: 1;
+	transition 	: opacity .25s ease-in-out;
+	-moz-transition		: opacity .25s ease-in-out;
+	-webkit-transition	: opacity .25s ease-in-out;
 }
 .fade:hover {
 	opacity: 0.8;
@@ -226,4 +225,80 @@ div.main div.pic img {
 
 div.main div.pic img:hover {
 	-webkit-transform:scale(1.1)
+}
+
+/*Contact*/
+
+div.main div.right {
+	margin-left : 450px;
+	border 		: 1px dashed red;
+}
+
+div.main div.left {
+	float 	: left;
+	width 	: 400px;
+	padding-right: 0;
+}
+
+div.main div.left div {
+	padding 	: 1px;
+}
+
+div.main div.left div.top div {
+	min-height	: 150px;
+	border 		: 1px dashed blue;
+}
+
+div.main div.left div.top div.lefttext {
+	float	: left;
+	width 	: 195px;
+}
+
+div.main div.left div.top div.righttext {
+	margin-left	: 200px;
+}
+
+div.main div.form {
+	margin-top	: 50px;
+	min-height	: 300px;
+}
+
+div.main div.form form input.name {
+	width 	: 100%;
+	color 	: #ddd;
+	padding : 5px;
+	border-radius 	: 5px;
+	min-height		: 17px;
+	background-color: #eee;
+}
+
+div.main div.form form input.email {
+	width 	: 100%;
+	color 	: #ddd;
+	padding : 5px;
+	margin-top 		: 40px;
+	min-height		: 17px;
+	border-radius 	: 5px;
+	background-color: #eee;
+}
+
+div.main div.form form textarea {
+	width 		: 99%;
+	color 		: #ddd;
+	padding 	: 5px;
+	margin-top	: 40px;
+	min-height		: 190px;
+	border-radius 	: 5px;
+	background-color: #eee;
+}
+
+div.main div.form form input.send {
+	color 	: white;
+	width 	: 134px;
+	cursor 	: pointer;
+	min-height	: 30px;
+	margin-top	: 50px;
+	font-weight	: bold;
+	border-radius 	: 5px;
+	background-color: gray;
 }
