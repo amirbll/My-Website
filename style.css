@@ -77,13 +77,13 @@ nav.menu menu {
 }
 
 nav.menu li {
-	float: left;
-	margin-left: 5px;
+	float	: left;
 	position: relative;
+	margin-left: 5px;
 }
 
 nav.menu a {
-	white-space: nowrap;
+	white-space	: nowrap;
 }
 
 nav.menu menu > li > a {
@@ -95,46 +95,46 @@ nav.menu menu > li > a {
 }
 
 nav.menu li ul {
+	top 	: 100%;
+	display : none;
+	padding : 5px 10px 5px;
 	position: absolute;
-	padding: 5px 10px 5px;
-	background-color: #111;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-	display: none;
-	top: 100%;
+	background-color 			: #111;
+	border-bottom-left-radius	: 5px;
+	border-bottom-right-radius	: 5px;
 }
 
 nav.menu li ul a {
-	color: #aaa;
-	display: block;
-	padding: 10px 0;
+	color 	: #aaa;
+	display : block;
+	padding : 10px 0;
+	text-transform : capitalize;
 	text-decoration: none;
-	text-transform: capitalize;
 }
 
 nav.menu li:hover ul {
-	display: block;
+	display	: block;
 }
 
 nav.menu li ul li:hover a {
-	color: #eee;
+	color 	: #eee;
 }
 
 header div.icon {
+	top  : 20px;
+	right: 40px;
 	float: right;
 	position: fixed;
-	right: 40px;
-	top: 20px;
 }
 
 /*TEXT*/
 
 div.mainp div.title {
+	right 	: 20px;
+	width 	: 200px;
+	height 	: 50px;
+	bottom 	: 200px;
 	position: fixed;
-	right: 20px;
-	bottom: 200px;
-	width: 200px;
-	height: 50px;
 	background-color: rgba(0,0,0,0.9);
 }
 
@@ -230,8 +230,18 @@ div.main div.pic img:hover {
 /*Contact*/
 
 div.main div.right {
-	margin-left : 450px;
+	margin-left : 460px;
 	border 		: 1px dashed red;
+}
+
+div.main div.right div.text {
+	min-height: 300px;
+	border: 1px dashed red;
+}
+
+div.main div.right div.text div.address {
+	border: 1px solid red;
+	min-height: 50px;
 }
 
 div.main div.left {
@@ -265,7 +275,7 @@ div.main div.form {
 
 div.main div.form form input.name {
 	width 	: 100%;
-	color 	: #ddd;
+	color 	: #555;
 	padding : 5px;
 	border-radius 	: 5px;
 	min-height		: 17px;
@@ -274,7 +284,7 @@ div.main div.form form input.name {
 
 div.main div.form form input.email {
 	width 	: 100%;
-	color 	: #ddd;
+	color 	: #555;
 	padding : 5px;
 	margin-top 		: 40px;
 	min-height		: 17px;
@@ -284,12 +294,13 @@ div.main div.form form input.email {
 
 div.main div.form form textarea {
 	width 		: 99%;
-	color 		: #ddd;
+	color 		: #555;
 	padding 	: 5px;
 	margin-top	: 40px;
 	min-height		: 190px;
 	border-radius 	: 5px;
 	background-color: #eee;
+	border-color: #ccc;
 }
 
 div.main div.form form input.send {
