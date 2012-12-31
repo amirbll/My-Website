@@ -101,6 +101,7 @@ nav.menu li ul {
 	background-color 			: #111;
 	border-bottom-left-radius	: 5px;
 	border-bottom-right-radius	: 5px;
+	z-index: 1;
 }
 
 nav.menu li ul a {
@@ -177,6 +178,8 @@ div.main {
 	border-radius 	: 5px;
 	padding-bottom	: 20px;
 	background-color: white;
+
+	-webkit-transition:all 1s;
 }
 
 div.main > div {
@@ -318,4 +321,8 @@ div.main div.form form input.send {
 	font-weight	: bold;
 	border-radius 	: 5px;
 	background-color: gray;
+}
+
+body.preload .main {
+	-webkit-transform: translateY(1000px) ;
 }
