@@ -6,6 +6,10 @@ body {
 	padding-bottom: 20px;
 }
 
+body.preload .main {
+	-webkit-transform: translateY(1000px) ;
+}
+
 section.backimg div {
 	position:fixed;
 	left:0;
@@ -233,16 +237,31 @@ div.main div.pic img:hover {
 
 div.main div.right {
 	margin-left : 460px;
-	border 		: 1px dashed red;
+}
+
+div.main div.right h2 {
+	font-size: 1.5em;
 }
 
 div.main div.right div.text {
-	min-height: 300px;
-	border: 1px dashed red;
+	margin-top: 40px;
+}
+
+div.main div.right div.text div {
+	margin-top: 10px;
+	/*border: 1px solid green;*/
+}
+
+div.main div.right div.text div.imgtext	{
+	min-height: 50px;
+}
+
+div.main div.right div.text div div.img img {
+	float: left;
+	margin: 10px 0 10px 10px;
 }
 
 div.main div.right div.text div.address {
-	border: 1px solid red;
 	min-height: 50px;
 }
 
@@ -321,8 +340,4 @@ div.main div.form form input.send {
 	font-weight	: bold;
 	border-radius 	: 5px;
 	background-color: gray;
-}
-
-body.preload .main {
-	-webkit-transform: translateY(1000px) ;
 }
